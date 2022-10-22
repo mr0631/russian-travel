@@ -1,0 +1,12 @@
+.header__item {
+    margin-right: 18px;
+    list-style-type: none;
+    width: 30px;
+    height: 28px;
+  }
+  @media screen and (max-width: 320px) {
+    .header__item {
+        width: 22px;
+        height: 20px;
+    }
+}
