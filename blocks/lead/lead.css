@@ -1,6 +1,6 @@
 .lead {
-    width: 984px;
-    height: 1005px;
+  max-width: 984px;
+  max-height: 1005px;
     margin: 56px auto 0;
     display: flex;
     flex-direction: column;
@@ -9,15 +9,15 @@
 
   @media screen and (max-width: 1024px) {
     .lead {
-        width: 928px;
-        height: 962px;
+      max-width: 928px;
+        max-height: 962px;
         margin: 48px auto 0;
     }
 }
 @media screen and (max-width: 768px) {
   .lead {
-      width: 768px;
-      height: 862px;
+    max-width: 768px;
+      max-height: 862px;
       margin: 48px auto 0;
   }
 }
@@ -25,8 +25,8 @@
   .lead {
     font-size: 40px;
     line-height: 44px;
-    width: 288px;
-    height: 406px;
+    max-width: 288px;
+    max-height: 406px;
     margin: 48px;
   }
 }

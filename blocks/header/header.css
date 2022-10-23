@@ -5,21 +5,25 @@
     margin: 0 auto;
     justify-content: space-between;
 }
-
+@media screen and (max-width: 1279px) {
+    .header {
+        width: 92.5vw;
+    }
+  }
 
 @media screen and (max-width: 1024px) {
     .header {
-        width: 928px;
+        width: 92.5vw;
     }
 }
 @media screen and (max-width: 768px) {
     .header {
-        width: 720px;
+       width: 92.5vw;
     }
 }
 @media screen and (max-width: 320px) {
     .header {
-        width: 288px;
+        width: 92.5vw;
         height: 42px;
     }
 }

@@ -19,21 +19,27 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+@media screen and (max-width: 1279px) {
+    .page {
+        max-width: 1279px;
+        
+    }
+}
 @media screen and (max-width: 1024px) {
         .page {
-            width: 1024px;
-            height: 6895px;
+            max-width: 1024px;
+            
         }
     }
     @media screen and (max-width: 768px) {
         .page {
-            width: 768px;
-            height: 6855px;
+            max-width: 768px;
+            
         }
     }
     @media screen and (max-width: 320px) {
         .page {
-            width: 320px;
-            height: 10023px;
+            max-width: 320px;
+            
         }
     }
